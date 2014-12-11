@@ -1,6 +1,8 @@
 # getports
 
-Find multiple open ports to listen on. It's `[https://github.com/mikeal/getport](getport)` for multiple ports. Calling vanilla `getport` in parallel will return the same open port, requiring you to utilize the port after each callback, before calling `getport` again, which is what `getports` does.
+[![Build Status](https://travis-ci.org/lxe/getports.svg)](https://travis-ci.org/lxe/getports)
+
+Find multiple open ports to listen on. It's [`getport`](https://github.com/mikeal/getport) for multiple ports. Calling vanilla `getport` in parallel will return the same open port, requiring you to utilize the port after each callback, before calling `getport` again, which is what `getports` does.
 
 #### `getports(num, opts, function (err, ports) {})`
 
