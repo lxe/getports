@@ -1,0 +1,27 @@
+{
+  "name": "getports",
+  "version": "1.0.0",
+  "description": "Find multiple open ports to listen on.",
+  "main": "getports.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lxe/getports.git"
+  },
+  "keywords": [
+    "port",
+    "open",
+    "getport"
+  ],
+  "author": "Aleksey Smolenchuk <lxe@lxe.co>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lxe/getports/issues"
+  },
+  "homepage": "https://github.com/lxe/getports",
+  "dependencies": {
+    "getport": "^0.1.0"
+  }
+}
