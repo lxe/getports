@@ -1,6 +1,6 @@
 {
   "name": "getports",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Find multiple open ports to listen on.",
   "main": "getports.js",
   "scripts": {
