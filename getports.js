@@ -23,7 +23,7 @@ function getports(num, opts, callback) {
     return getport(port + 1, end, _getports);
   }
 
-  _getports(null, start);
+  return getport(start, end, _getports);
 }
 
 module.exports = getports;
